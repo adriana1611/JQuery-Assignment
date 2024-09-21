@@ -1,0 +1,50 @@
+body {
+    background-color: lightpink;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+
+   
+    
+}
+
+.flex-container {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 400px;
+    
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(182, 150, 212);
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#title {
+    color: white;
+    font-size:24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#restart-button {
+    background-color: rgb(185, 84, 211);
+    color:blanchedalmond;
+    text-align: center;
+    margin: 20px ;
+    border-radius: 5px;
+   
+
+
+}

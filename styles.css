@@ -27,8 +27,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 6rem;
+    color: rgb(197, 28, 70);
     
-
 }
 
 #title {
@@ -38,13 +39,27 @@ body {
     margin-bottom: 20px;
 }
 
+#players-turn{
+    color: white;
+    font-size: 20;
+
+}
+
 #restart-button {
     background-color: rgb(185, 84, 211);
     color:blanchedalmond;
     text-align: center;
     margin: 20px ;
     border-radius: 5px;
-   
 
+}
+
+.alert {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    color : rgb(235, 16, 89);
+    text-align: center;
+    font-size: 24px;
 
 }
